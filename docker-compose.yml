@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ktys.mvcwebui:
+    image: ${DOCKER_REGISTRY-}ktysmvcwebui
+    build:
+      context: .\Ktys.MvcWebUI
+      dockerfile: Dockerfile

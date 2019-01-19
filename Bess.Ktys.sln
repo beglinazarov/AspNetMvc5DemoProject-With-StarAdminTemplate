@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ktys.MvcWebUI", "Ktys.MvcWebUI\Ktys.MvcWebUI.csproj", "{B0C34D99-AE28-4203-A0CF-E5ABC047B8BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ktys.MvcWebUI.Tests", "Ktys.MvcWebUI.Tests\Ktys.MvcWebUI.Tests.csproj", "{4EDC580E-0AE9-4937-81DF-6A794F7BCC8A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8D544BFE-E32E-45E9-89AC-29728D7C39CB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0C34D99-AE28-4203-A0CF-E5ABC047B8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C34D99-AE28-4203-A0CF-E5ABC047B8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C34D99-AE28-4203-A0CF-E5ABC047B8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C34D99-AE28-4203-A0CF-E5ABC047B8BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EDC580E-0AE9-4937-81DF-6A794F7BCC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EDC580E-0AE9-4937-81DF-6A794F7BCC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EDC580E-0AE9-4937-81DF-6A794F7BCC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EDC580E-0AE9-4937-81DF-6A794F7BCC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D544BFE-E32E-45E9-89AC-29728D7C39CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D544BFE-E32E-45E9-89AC-29728D7C39CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D544BFE-E32E-45E9-89AC-29728D7C39CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D544BFE-E32E-45E9-89AC-29728D7C39CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
